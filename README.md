@@ -15,14 +15,12 @@ b: an example for binary recursion is a fibonacci series
 
 
 Q2: Non recursive factorial function 
-
-
-Function(n)
-input : non negative integer n 
-Initialise factorial = 1
- for(i =  n; while i is greater than 1; i = i - 1) 
-        factorial = factorial * n
-Return factorial
+	1 Function(n)
+	2 input : non negative integer n 
+	3 Initialise factorial = 1
+	4 for(i =  n; while i is greater than 1; i = i - 1) 
+     	5   factorial = factorial * n
+	6 Return factorial
 
 
 Q3:1 function LinearSum(A, n) 
