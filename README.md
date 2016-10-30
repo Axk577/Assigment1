@@ -15,6 +15,7 @@ b: an example for binary recursion is a fibonacci series
 
 
 Q2: Non recursive factorial function 
+
 	1 Function(n)
 	2 input : non negative integer n 
 	3 Initialise factorial = 1
@@ -23,14 +24,16 @@ Q2: Non recursive factorial function
 	6 Return factorial
 
 
-Q3:1 function LinearSum(A, n) 
-2 Input: non-negative integer n 
-3 if n == 1 then 
-4 return A[0] 
-5 else 
-6 return A[n − 1] + LinearSum(A, n − 1) 
-7 end if 
-8 end function
+Q3:
+
+	1 function LinearSum(A, n) 
+	2 Input: non-negative integer n 
+	3 if n == 1 then 
+	4 return A[0] 
+	5 else 
+	6 return A[n − 1] + LinearSum(A, n − 1) 
+	7 end if 
+	8 end function
 
 
 recursive sum over a 2D array using the LinearSum function
@@ -55,12 +58,12 @@ Where x,y > 0 ; x,y E Z
 	Input: array A of any length and 0 for x and y
 	If x=A.length-1 and if y=A(x).length-1 
 	return A[x][y]
-If y = A(x).length-1
-Return A[x][y] + 2Dsum(A, x+1, 0)
-Else 
-Return A[x][y] + 2Dsum(A, x, y+1)
-End if 
-End function
+	If y = A(x).length-1
+	Return A[x][y] + 2Dsum(A, x+1, 0)
+	Else 
+	Return A[x][y] + 2Dsum(A, x, y+1)
+	End if 
+	End function
 
 
 
@@ -93,20 +96,6 @@ After the 2nd recursive call	A:= [8,3,11,15,6,14,0,2,3,6]	;	i=3;j=3
 
 
 After the 3rd recursive call 	A:= [8,3,11,15,6,14,0,2,3,6] (the array stays the same since i and j         are the same and the function is terminated)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 Q7: getting the nth node of a singly linked list A
