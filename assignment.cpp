@@ -1,3 +1,19 @@
+/*
+Q7b
+*/
+
+ getnth(struct node *head,int n){
+     
+     struct node *nde = head;
+	int index = 0;
+     
+     while(nde != NULL){
+	if (index == n)
+		return *nde
+        index++;
+         nde = nde.next();
+     }
+ }
 
 /*
 Q8a
