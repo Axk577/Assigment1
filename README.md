@@ -100,13 +100,19 @@ After the 3rd recursive call 	A:= [8,3,11,15,6,14,0,2,3,6] (the array stays the 
 
 Q7: getting the nth node of a singly linked list A
 	
-Algorithm FindNode: Input: Header node of the list = B, and a non negative integer n
+Algorithm getNth: Input: Header node of the list = B, and a non negative integer n
+
 	Global int a = 0
 	getNth(B, n) 
 	If a = n
-Return B
-Else 
-a++ 
-getNth(next(B), n)
-End if 
-End function
+	Return B
+	Else 
+	a++ 
+	getNth(next(B), n)
+	End if 
+	End function
+
+
+
+
+
